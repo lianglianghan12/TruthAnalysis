@@ -1,10 +1,13 @@
 # Set up
 
-(1) make a workspace
+(1) Navigate to your work folder, let's say myWJPsiWorkFolder/, do:
 ```
-mkdir new_folder
-cd $_
+setupATLAS -q
+lsetup git
+mkdir -p build run
 ```
+
+(2) Clone the framework, here we use the branch 
 
 (2) create a script to set up
 in `setup.sh`:
